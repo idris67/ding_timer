@@ -1,0 +1,4 @@
+com.example.dingtimer.test.app-androidTest-0 /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/build/generated/res/resValues/androidTest/debug
+com.example.dingtimer.test.app-mergeDebugAndroidTestResources-1 /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.dingtimer.test.app-mergeDebugAndroidTestResources-2 /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.dingtimer.test.app-merged_res-3 /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/build/intermediates/merged_res/debugAndroidTest

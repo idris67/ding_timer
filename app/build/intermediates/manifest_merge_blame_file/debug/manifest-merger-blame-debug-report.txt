@@ -1,0 +1,110 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dingtimer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+11-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:5:5-78
+11-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+12-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:6:5-73
+12-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:6:22-71
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:7:5-67
+13-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:7:22-65
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:8:5-76
+14-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:8:22-74
+15
+16    <permission
+16-->[androidx.core:core:1.9.0] /Users/idris/.gradle/caches/transforms-3/55dedc70b95a473650eda30d4efd0f99/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.dingtimer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.9.0] /Users/idris/.gradle/caches/transforms-3/55dedc70b95a473650eda30d4efd0f99/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.9.0] /Users/idris/.gradle/caches/transforms-3/55dedc70b95a473650eda30d4efd0f99/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.dingtimer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.9.0] /Users/idris/.gradle/caches/transforms-3/55dedc70b95a473650eda30d4efd0f99/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.9.0] /Users/idris/.gradle/caches/transforms-3/55dedc70b95a473650eda30d4efd0f99/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:10:5-31:19
+23        android:allowBackup="true"
+23-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:11:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.9.0] /Users/idris/.gradle/caches/transforms-3/55dedc70b95a473650eda30d4efd0f99/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:icon="@android:drawable/ic_menu_recent_history"
+27-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:12:9-64
+28        android:label="Ding Timer"
+28-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:13:9-35
+29        android:theme="@style/Theme.DingTimer" >
+29-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:14:9-47
+30        <activity
+30-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:16:9-22:20
+31            android:name="com.example.dingtimer.MainActivity"
+31-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:16:19-47
+32            android:exported="true" >
+32-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:17:13-36
+33            <intent-filter>
+33-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:18:13-21:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:19:17-68
+34-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:19:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:20:17-76
+36-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:20:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <receiver
+40-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:24:9-26:39
+41            android:name="com.example.dingtimer.AlarmReceiver"
+41-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:24:19-48
+42            android:enabled="true"
+42-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:25:13-35
+43            android:exported="false" />
+43-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:26:13-37
+44
+45        <service
+45-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:28:9-30:39
+46            android:name="com.example.dingtimer.DingService"
+46-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:28:18-45
+47            android:enabled="true"
+47-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:29:13-35
+48            android:exported="false" />
+48-->/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:30:13-37
+49
+50        <provider
+50-->[androidx.emoji2:emoji2:1.2.0] /Users/idris/.gradle/caches/transforms-3/69262e6e1ef2f549fc8371faf15c8c5f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+51            android:name="androidx.startup.InitializationProvider"
+51-->[androidx.emoji2:emoji2:1.2.0] /Users/idris/.gradle/caches/transforms-3/69262e6e1ef2f549fc8371faf15c8c5f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+52            android:authorities="com.example.dingtimer.androidx-startup"
+52-->[androidx.emoji2:emoji2:1.2.0] /Users/idris/.gradle/caches/transforms-3/69262e6e1ef2f549fc8371faf15c8c5f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+53            android:exported="false" >
+53-->[androidx.emoji2:emoji2:1.2.0] /Users/idris/.gradle/caches/transforms-3/69262e6e1ef2f549fc8371faf15c8c5f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+54            <meta-data
+54-->[androidx.emoji2:emoji2:1.2.0] /Users/idris/.gradle/caches/transforms-3/69262e6e1ef2f549fc8371faf15c8c5f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+55-->[androidx.emoji2:emoji2:1.2.0] /Users/idris/.gradle/caches/transforms-3/69262e6e1ef2f549fc8371faf15c8c5f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+56                android:value="androidx.startup" />
+56-->[androidx.emoji2:emoji2:1.2.0] /Users/idris/.gradle/caches/transforms-3/69262e6e1ef2f549fc8371faf15c8c5f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+57            <meta-data
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/idris/.gradle/caches/transforms-3/d792cfc6337e3c8fbac3183f5288f77a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/idris/.gradle/caches/transforms-3/d792cfc6337e3c8fbac3183f5288f77a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+59                android:value="androidx.startup" />
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/idris/.gradle/caches/transforms-3/d792cfc6337e3c8fbac3183f5288f77a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+60        </provider>
+61    </application>
+62
+63</manifest>
