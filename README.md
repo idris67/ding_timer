@@ -2,6 +2,12 @@
 
 A minimal Android app that plays a short "ding" sound at a time you specify. No need to interact with it when it goes off - it plays for 2-3 seconds and stops automatically.
 
+## 📥 Download APK
+
+**[Download app-debug.apk](https://github.com/idris67/ding_timer/raw/main/app/build/outputs/apk/debug/app-debug.apk)**
+
+Click the link above to download the app directly to your Android phone!
+
 ## Features
 
 - Simple time picker interface
