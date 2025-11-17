@@ -113,7 +113,17 @@ public class MainActivity extends AppCompatActivity {
         prefs.edit().putStringSet("alarms", alarms).apply();
 
         String timeStr = String.format("%02d:%02d", hour, minute);
-        Toast.makeText(this, "Ding added for " + timeStr, Toast.LENGTH_SHORT).show();
+        
+        // Check if it's for tomorrow
+        Calendar now = Calendar.getInstance();
+        String dayInfo = "";
+        if (calendar.get(Calendar.DAY_OF_YEAR) != now.get(Calendar.DAY_OF_YEAR)) {
+            dayInfo = " (tomorrow)";
+        } else {
+            dayInfo = " (today)";
+        }
+        
+        Toast.makeText(this, "Ding added for " + timeStr + dayInfo, Toast.LENGTH_LONG).show();
 
         updateAlarmList();
     }
