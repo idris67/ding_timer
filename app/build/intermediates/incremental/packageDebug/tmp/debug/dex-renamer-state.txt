@@ -1,4 +1,4 @@
-#Tue Nov 18 05:01:58 CET 2025
+#Tue Nov 18 05:06:09 CET 2025
 base.2=/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
 path.2=3/classes.dex
 base.1=/Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex

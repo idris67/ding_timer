@@ -8,8 +8,10 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.PowerManager;
 import android.provider.Settings;
 import android.view.View;
 import android.widget.Button;
@@ -53,12 +55,34 @@ public class MainActivity extends AppCompatActivity {
 
         // Request notification permission on Android 13+
         requestNotificationPermission();
+        
+        // Request battery optimization exemption
+        requestBatteryOptimizationExemption();
 
         setButton.setOnClickListener(v -> addAlarm());
         cancelAllButton.setOnClickListener(v -> cancelAllAlarms());
 
         // Display existing alarms
         updateAlarmList();
+    }
+    
+    private void requestBatteryOptimizationExemption() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            PowerManager powerManager = (PowerManager) getSystemService(Context.POWER_SERVICE);
+            String packageName = getPackageName();
+            
+            if (!powerManager.isIgnoringBatteryOptimizations(packageName)) {
+                Intent intent = new Intent(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS);
+                intent.setData(Uri.parse("package:" + packageName));
+                try {
+                    startActivity(intent);
+                    Toast.makeText(this, "Please allow unrestricted battery usage for reliable alarms", Toast.LENGTH_LONG).show();
+                } catch (Exception e) {
+                    // If the direct intent doesn't work, show settings
+                    Toast.makeText(this, "Go to Settings → Battery → Unrestricted to allow alarms", Toast.LENGTH_LONG).show();
+                }
+            }
+        }
     }
 
     private void requestNotificationPermission() {
@@ -91,12 +115,8 @@ public class MainActivity extends AppCompatActivity {
         calendar.set(Calendar.SECOND, 0);
         calendar.set(Calendar.MILLISECOND, 0);
 
-        // Add 60 seconds buffer to ensure alarm is always in the future
-        long currentTime = System.currentTimeMillis();
-        long alarmTime = calendar.getTimeInMillis();
-        
-        // If time has passed or is less than 60 seconds away, set for tomorrow
-        if (alarmTime <= currentTime + 60000) {
+        // If time has passed today, set for tomorrow
+        if (calendar.getTimeInMillis() <= System.currentTimeMillis()) {
             calendar.add(Calendar.DAY_OF_YEAR, 1);
         }
 
@@ -108,7 +128,12 @@ public class MainActivity extends AppCompatActivity {
             this, alarmId, intent, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE
         );
 
-        alarmManager.setExact(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), pendingIntent);
+        // Use setExactAndAllowWhileIdle for more reliable alarms even in doze mode
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            alarmManager.setExactAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), pendingIntent);
+        } else {
+            alarmManager.setExact(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), pendingIntent);
+        }
 
         // Save alarm ID to preferences
         Set<String> alarms = prefs.getStringSet("alarms", new HashSet<>());

@@ -6,6 +6,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Build;
 import java.util.Calendar;
 import java.util.HashSet;
 import java.util.Set;
@@ -39,12 +40,8 @@ public class BootReceiver extends BroadcastReceiver {
             calendar.set(Calendar.SECOND, 0);
             calendar.set(Calendar.MILLISECOND, 0);
             
-            // Add 60 seconds buffer to ensure alarm is always in the future
-            long currentTime = System.currentTimeMillis();
-            long alarmTime = calendar.getTimeInMillis();
-            
-            // If time has passed or is less than 60 seconds away, set for tomorrow
-            if (alarmTime <= currentTime + 60000) {
+            // If time has passed today, set for tomorrow
+            if (calendar.getTimeInMillis() <= System.currentTimeMillis()) {
                 calendar.add(Calendar.DAY_OF_YEAR, 1);
             }
             
@@ -54,7 +51,12 @@ public class BootReceiver extends BroadcastReceiver {
             );
             
             if (alarmManager != null) {
-                alarmManager.setExact(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), pendingIntent);
+                // Use setExactAndAllowWhileIdle for more reliable alarms even in doze mode
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                    alarmManager.setExactAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), pendingIntent);
+                } else {
+                    alarmManager.setExact(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), pendingIntent);
+                }
             }
         }
     }

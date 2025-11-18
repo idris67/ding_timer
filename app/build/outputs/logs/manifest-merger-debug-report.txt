@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:2:1-41:12
+ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:2:1-42:12
 MERGED from [com.google.android.material:material:1.9.0] /Users/idris/.gradle/caches/transforms-3/090f337ed676e5ed26d304bf1a78644b/transformed/material-1.9.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/idris/.gradle/caches/transforms-3/916d8c1d5f5914c9bddc90fc51ad2a21/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/idris/.gradle/caches/transforms-3/31a707e21bb7329cb9e6948e684e1ac6/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
@@ -44,20 +44,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/idris/.gradle/cach
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/idris/.gradle/caches/transforms-3/3720f74479d1bf1b71b3563ead82bc28/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/idris/.gradle/caches/transforms-3/89d7c0a63c4c68190d59f33c4abce116/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/idris/.gradle/caches/transforms-3/17cba7b38a0751cd1f4e29bcbc56ae96/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:2:1-42:12
 	package
 		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:3:5-36
 		INJECTED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml
-		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:2:1-41:12
+		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:2:1-42:12
 		INJECTED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml
-		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:2:1-41:12
+		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:2:1-42:12
 		INJECTED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:2:11-69
@@ -81,8 +81,12 @@ uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
 ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:9:5-80
 	android:name
 		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:10:5-94
+	android:name
+		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:10:22-92
 application
-ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:11:5-40:19
+ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:12:5-41:19
 MERGED from [com.google.android.material:material:1.9.0] /Users/idris/.gradle/caches/transforms-3/090f337ed676e5ed26d304bf1a78644b/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] /Users/idris/.gradle/caches/transforms-3/090f337ed676e5ed26d304bf1a78644b/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/idris/.gradle/caches/transforms-3/31a707e21bb7329cb9e6948e684e1ac6/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
@@ -100,59 +104,59 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/idri
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] /Users/idris/.gradle/caches/transforms-3/55dedc70b95a473650eda30d4efd0f99/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:15:9-35
 	android:icon
-		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:13:9-64
+		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:14:9-64
 	android:allowBackup
-		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:15:9-47
+		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:16:9-47
 activity#com.example.dingtimer.MainActivity
-ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:17:9-23:20
+ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:18:9-24:20
 	android:exported
-		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:18:13-36
+		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:19:13-36
 	android:name
-		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:17:19-47
+		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:18:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:19:13-22:29
+ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
-ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:20:17-68
+ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:21:17-68
 	android:name
-		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:21:17-76
+ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:22:17-76
 	android:name
-		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:22:27-74
 receiver#com.example.dingtimer.AlarmReceiver
-ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:25:9-27:39
+ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:26:9-28:39
 	android:enabled
-		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:26:13-35
+		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:27:13-35
 	android:exported
-		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:27:13-37
+		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:25:19-48
+		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:26:19-48
 receiver#com.example.dingtimer.BootReceiver
-ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:29:9-35:20
+ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:30:9-36:20
 	android:enabled
-		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:30:13-35
+		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:31:13-35
 	android:exported
-		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:31:13-36
+		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:32:13-36
 	android:name
-		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:29:19-47
+		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:30:19-47
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED
-ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:32:13-34:29
+ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:33:13-35:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:33:17-78
+ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:34:17-78
 	android:name
-		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:33:25-76
+		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:34:25-76
 service#com.example.dingtimer.DingService
-ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:37:9-39:39
+ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:38:9-40:39
 	android:enabled
-		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:38:13-35
+		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:39:13-35
 	android:exported
-		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:39:13-37
+		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:37:18-45
+		ADDED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml:38:18-45
 uses-sdk
 INJECTED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/idris/Library/CloudStorage/Dropbox/Perso/Scripts/others/android_apps/ding_timer_app/app/src/main/AndroidManifest.xml
