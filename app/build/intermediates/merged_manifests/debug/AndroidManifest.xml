@@ -12,6 +12,7 @@
     <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <permission
         android:name="com.example.dingtimer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -41,6 +42,14 @@
             android:name="com.example.dingtimer.AlarmReceiver"
             android:enabled="true"
             android:exported="false" />
+        <receiver
+            android:name="com.example.dingtimer.BootReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
 
         <service
             android:name="com.example.dingtimer.DingService"

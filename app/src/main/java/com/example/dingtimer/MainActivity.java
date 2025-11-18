@@ -91,8 +91,12 @@ public class MainActivity extends AppCompatActivity {
         calendar.set(Calendar.SECOND, 0);
         calendar.set(Calendar.MILLISECOND, 0);
 
-        // If time has passed today, set for tomorrow
-        if (calendar.getTimeInMillis() <= System.currentTimeMillis()) {
+        // Add 60 seconds buffer to ensure alarm is always in the future
+        long currentTime = System.currentTimeMillis();
+        long alarmTime = calendar.getTimeInMillis();
+        
+        // If time has passed or is less than 60 seconds away, set for tomorrow
+        if (alarmTime <= currentTime + 60000) {
             calendar.add(Calendar.DAY_OF_YEAR, 1);
         }
 
