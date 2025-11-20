@@ -124,6 +124,7 @@ public class MainActivity extends AppCompatActivity {
         int alarmId = hour * 100 + minute;
         
         Intent intent = new Intent(this, AlarmReceiver.class);
+        intent.putExtra("alarmId", alarmId);
         PendingIntent pendingIntent = PendingIntent.getBroadcast(
             this, alarmId, intent, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE
         );
@@ -159,6 +160,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void cancelAlarm(int alarmId) {
         Intent intent = new Intent(this, AlarmReceiver.class);
+        intent.putExtra("alarmId", alarmId);
         PendingIntent pendingIntent = PendingIntent.getBroadcast(
             this, alarmId, intent, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE
         );
@@ -180,6 +182,7 @@ public class MainActivity extends AppCompatActivity {
         for (String alarmIdStr : alarms) {
             int alarmId = Integer.parseInt(alarmIdStr);
             Intent intent = new Intent(this, AlarmReceiver.class);
+            intent.putExtra("alarmId", alarmId);
             PendingIntent pendingIntent = PendingIntent.getBroadcast(
                 this, alarmId, intent, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE
             );

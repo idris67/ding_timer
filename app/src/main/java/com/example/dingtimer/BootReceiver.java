@@ -46,6 +46,7 @@ public class BootReceiver extends BroadcastReceiver {
             }
             
             Intent alarmIntent = new Intent(context, AlarmReceiver.class);
+            alarmIntent.putExtra("alarmId", alarmId);
             PendingIntent pendingIntent = PendingIntent.getBroadcast(
                 context, alarmId, alarmIntent, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE
             );
